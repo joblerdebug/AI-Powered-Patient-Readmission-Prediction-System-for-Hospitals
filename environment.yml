@@ -1,0 +1,19 @@
+name: patient-readmission
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - scikit-learn
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - xgboost
+  - pip:
+    - fastapi
+    - uvicorn
+    - pydantic
+    - joblib
+    - pytest
